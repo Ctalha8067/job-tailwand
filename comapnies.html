@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companies - JobPortal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">JobPortal</h1>
+            <ul class="hidden md:flex space-x-8">
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="index.html">Home</a></li>
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="jobs.html">Jobs</a></li>
+                <li><a class="text-blue-600 font-medium" href="companies.html">Companies</a></li>
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="flex space-x-4">
+                <a href="#" class="px-4 py-2 text-gray-600 hover:text-blue-600 transition">Login</a>
+                <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Companies Header -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Top Companies</h1>
+            <p class="text-xl">Hiring now</p>
+        </div>
+    </section>
+
+    <!-- Companies List -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=300&q=80" 
+                         alt="Tech Solutions Logo" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Tech Solutions</h3>
+                        <p class="text-gray-600 mb-4">15 Open Positions</p>
+                        <a href="jobs.html" class="text-blue-600 font-medium hover:text-blue-800 transition">
+                            View Jobs →
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Company Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=300&q=80" 
+                         alt="Creative Media Logo" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Creative Media</h3>
+                        <p class="text-gray-600 mb-4">8 Open Positions</p>
+                        <a href="jobs.html" class="text-blue-600 font-medium hover:text-blue-800 transition">
+                            View Jobs →
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Company Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=300&q=80" 
+                         alt="Finance Corp Logo" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Finance Corp</h3>
+                        <p class="text-gray-600 mb-4">5 Open Positions</p>
+                        <a href="jobs.html" class="text-blue-600 font-medium hover:text-blue-800 transition">
+                            View Jobs →
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Company Card 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=300&q=80" 
+                         alt="Digital Agency Logo" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Digital Agency</h3>
+                        <p class="text-gray-600 mb-4">7 Open Positions</p>
+                        <a href="jobs.html" class="text-blue-600 font-medium hover:text-blue-800 transition">
+                            View Jobs →
+                        </a>
+                    </div>
+                </div>
+                        <a href="jobs.html" class="text-blue-600 font-medium hover:text-blue-800 transition">
+                            View Jobs →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="footer-about">
+                    <h3 class="text-xl font-bold mb-4">JobPortal</h3>
+                    <p class="text-gray-400">Find your dream job</p>
+                </div>
+                <div class="footer-links">
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="jobs.html" class="text-gray-400 hover:text-white transition">Jobs</a></li>
+                        <li><a href="companies.html" class="text-gray-400 hover:text-white transition">Companies</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p class="text-gray-400 mb-2">📞 +92 3208045202</p>
+                    <p class="text-gray-400 mb-2">✉️ talhach7812@gmail.com</p>
+                    <p class="text-gray-400">📌 Gujrat, Pakistan</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 JobPortal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
