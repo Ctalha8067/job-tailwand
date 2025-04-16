@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings - JobPortal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">JobPortal</h1>
+            <ul class="hidden md:flex space-x-8">
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="index.html">Home</a></li>
+                <li><a class="text-blue-600 font-medium" href="jobs.html">Jobs</a></li>
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="companies.html">Companies</a></li>
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="flex space-x-4">
+                <a href="#" class="px-4 py-2 text-gray-600 hover:text-blue-600 transition">Login</a>
+                <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jobs Header -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Browse Jobs</h1>
+            <p class="text-xl">Find your perfect opportunity</p>
+        </div>
+    </section>
+
+    <!-- Job Listings -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <!-- Job Filters -->
+            <div class="bg-white p-6 rounded-lg shadow-md mb-8 flex flex-col md:flex-row gap-4">
+                <input type="text" placeholder="Search jobs..." class="flex-grow p-3 border border-gray-300 rounded-md">
+                <select class="p-3 border border-gray-300 rounded-md text-gray-700">
+                    <option>All Locations</option>
+                    <option>Gujrat</option>
+                    <option>Lahore</option>
+                    <option>Islamabad</option>
+
+                </select>
+            </div>
+
+            <!-- Jobs Container -->
+            <div class="space-y-6">
+                <!-- Job Item -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row gap-6 items-start md:items-center">
+                    <img src="https://img.icons8.com/color/96/000000/company.png" alt="Company Logo" class="w-20 h-20">
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-semibold">Frontend Developer</h3>
+                        <p class="text-gray-600 mb-2">Tech Solutions Inc.</p>
+                        <div class="flex flex-wrap gap-4 mb-2">
+                            <span class="text-gray-600">📍 Gujrat</span>
+                            <span class="text-gray-600">💰 Rs. 120,000</span>
+                            <span class="text-gray-600">⏱️ Full-time</span>
+                        </div>
+                        <p class="text-gray-700">Looking for a frontend developer with HTML, CSS, JavaScript experience...</p>
+                    </div>
+                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition whitespace-nowrap">Apply Now</a>
+                </div>
+
+                <!-- More job items can be added here -->
+                <!-- Example Job Item 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row gap-6 items-start md:items-center">
+                    <img src="https://img.icons8.com/color/96/000000/bank.png" alt="Company Logo" class="w-20 h-20">
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-semibold">Backend Developer</h3>
+                        <p class="text-gray-600 mb-2">Finance Corp</p>
+                        <div class="flex flex-wrap gap-4 mb-2">
+                            <span class="text-gray-600">📍 Lahore</span>
+                            <span class="text-gray-600">💰 Rs. 150,000</span>
+                            <span class="text-gray-600">⏱️ Full-time</span>
+                        </div>
+                        <p class="text-gray-700">Looking for a backend developer with Node.js and database experience...</p>
+                    </div>
+                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition whitespace-nowrap">Apply Now</a>
+                </div>
+
+                <!-- Example Job Item 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row gap-6 items-start md:items-center">
+                    <img src="https://img.icons8.com/color/96/000000/design.png" alt="Company Logo" class="w-20 h-20">
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-semibold">UI/UX Designer</h3>
+                        <p class="text-gray-600 mb-2">Creative Studios</p>
+                        <div class="flex flex-wrap gap-4 mb-2">
+                            <span class="text-gray-600">📍 Islamabad</span>
+                            <span class="text-gray-600">💰 Rs. 100,000</span>
+                            <span class="text-gray-600">⏱️ Contract</span>
+                        </div>
+                        <p class="text-gray-700">Looking for a creative designer with Figma and Adobe XD experience...</p>
+                    </div>
+                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition whitespace-nowrap">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->                                                                                                                                                                                     
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="footer-about">
+                    <h3 class="text-xl font-bold mb-4">JobPortal</h3>
+                    <p class="text-gray-400">Find your dream job</p>
+                </div>
+                <div class="footer-links">
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="jobs.html" class="text-gray-400 hover:text-white transition">Jobs</a></li>
+                        <li><a href="companies.html" class="text-gray-400 hover:text-white transition">Companies</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p class="text-green-400 mb-2">📞 +92 3208045202</p>
+                    <p class="text-gray-400 mb-2">✉️ talhach7812@gmail.com</p>
+                    <p class="text-blue-400">📌 Gujrat, Pakistan</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 JobPortal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
