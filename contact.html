@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - JobPortal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">JobPortal</h1>
+            <ul class="hidden md:flex space-x-8">
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="index.html">Home</a></li>
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="jobs.html">Jobs</a></li>
+                <li><a class="text-gray-600 hover:text-blue-600 transition" href="companies.html">Companies</a></li>
+                <li><a class="text-blue-600 font-medium" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="flex space-x-4">
+                <a href="#" class="px-4 py-2 text-gray-600 hover:text-blue-600 transition">Login</a>
+                <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+            <p class="text-xl">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Form Section -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-bold mb-6">Send us a message</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-gray-700 mb-2">Your Name</label>
+                            <input type="text" placeholder="Enter your name" 
+                                   class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Email Address</label>
+                            <input type="email" placeholder="Enter your email" 
+                                   class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Message</label>
+                            <textarea placeholder="Your message" rows="5"
+                                   class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" 
+                                class="w-full bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition font-medium">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info Section -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-bold mb-6">Our Office</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">📍</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Address</h3>
+                                <p class="text-gray-600">Karachi, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">📞</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Phone</h3>
+                                <p class="text-gray-600">+92 300 1234567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">✉️</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Email</h3>
+                                <p class="text-gray-600">info@jobportal.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h3 class="font-semibold text-lg mb-4">Business Hours</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex justify-between">
+                                <span>Monday - Friday</span>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Saturday</span>
+                                <span>10:00 AM - 4:00 PM</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="footer-about">
+                    <h3 class="text-xl font-bold mb-4">JobPortal</h3>
+                    <p class="text-gray-400">Find your dream job</p>
+                </div>
+                <div class="footer-links">
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="jobs.html" class="text-gray-400 hover:text-white transition">Jobs</a></li>
+                        <li><a href="companies.html" class="text-gray-400 hover:text-white transition">Companies</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p class="text-gray-400 mb-2">📞 +92 3208045202</p>
+                    <p class="text-gray-400 mb-2">✉️ talhach7812@gmail.com</p>
+                    <p class="text-gray-400">📌 Gujrat, Pakistan</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 JobPortal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
